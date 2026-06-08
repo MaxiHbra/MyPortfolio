@@ -1,9 +1,9 @@
 body {
     font-family:'Courier New', Courier, monospace;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
 .nombre_ap{
-    color: rgb(23, 211, 23);
+    color: rgb(255, 255, 255);
 }
 .tag{
     color: gray;
@@ -14,7 +14,7 @@ ul {
     list-style:none;
 }
 .secciones{
-    color: rgb(23,211,23);
+    color: rgb(255, 255, 255);
     padding: 0;
     display: flex;
     gap: 20px;
