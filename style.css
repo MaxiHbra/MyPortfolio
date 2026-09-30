@@ -560,8 +560,8 @@ body {
     font-size: clamp(28px, 5vw, 60px);
     line-height: 1;
     text-transform: uppercase;
-    color: transparent;
-    -webkit-text-stroke: 1px var(--red);
+    color: var(--bg);
+    text-shadow: 0 3px 10px var(--red);
 }
 
 .contacto-redes {
