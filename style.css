@@ -286,7 +286,6 @@ body {
 .proyectos {
     width: min(95%, 1400px);
     margin-inline: auto;
-    padding-block: 100px;
 }
 
 .seccion-header {
@@ -415,7 +414,6 @@ body {
 .formacion {
     width: min(95%, 1400px);
     margin-inline: auto;
-    padding-block: 100px;
 }
 
 .formacion-lista {
@@ -541,26 +539,24 @@ body {
 .contacto {
     width: min(95%, 1400px);
     margin-inline: auto;
-    padding-block: 120px 60px;
 }
 
 .contacto-contenido {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items:center;
     gap: 20px;
 }
 
 .contacto-titulo {
-    font-size: clamp(55px, 12vw, 150px);
-    line-height: .9;
+    font-size: clamp(55px, 12vw, 90px);
     letter-spacing: -5px;
     text-transform: uppercase;
     color: var(--texto);
 }
 
 .contacto-nombre {
-    font-size: clamp(28px, 5vw, 70px);
+    font-size: clamp(28px, 5vw, 60px);
     line-height: 1;
     text-transform: uppercase;
     color: transparent;
@@ -570,28 +566,21 @@ body {
 .contacto-redes {
     display: flex;
     flex-wrap: wrap;
-
     gap: 18px;
-
     margin-top: 30px;
 }
 
 .contacto-redes a {
     width: 52px;
     height: 52px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     border: 1px solid var(--border);
-
+    border-radius: 50%;
     color: var(--texto);
-
     text-decoration: none;
-
     font-size: 22px;
-
     transition:
         transform .25s ease,
         border-color .25s ease,
@@ -601,24 +590,19 @@ body {
 
 .contacto-redes a:hover {
     transform: translateY(-4px);
-
     border-color: var(--red);
-
     color: var(--red);
-
     box-shadow:
         0 0 20px rgba(255, 0, 60, .18);
 }
 .contacto-footer {
     margin-top: 80px;
-
     color: var(--muted);
-
     font-size: 11px;
-
     letter-spacing: 2px;
-
     text-transform: uppercase;
+    display: flex;
+    justify-content: center;
 }
 @media (min-width: 900px) {
     .navbar {
