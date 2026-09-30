@@ -195,9 +195,10 @@ body {
 
 .hero h2 span {
     display: block;
-    color: transparent;
-    -webkit-text-stroke: 1px var(--texto);
+    color: var(--texto);
+    text-shadow: 0 0 7px var(--red);
 }
+
 .hero-descripcion {
     max-width: 100%;
     margin-top: 15px;
