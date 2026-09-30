@@ -277,11 +277,11 @@ body {
 }
 .image-index {
     position: absolute;
-    top: -20px;
+    top: -40px;
     right: 0;
     color: var(--red);
-    font-size: 13px;
-    letter-spacing: 3px;
+    font-size: 10px;
+    letter-spacing: 2px;
 }
 
 .proyectos {
