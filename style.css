@@ -187,9 +187,9 @@ body {
 
 .hero h2 {
     max-width: 100%;
-    font-size: 65px;
-    line-height: 80px;
-    letter-spacing: -5px;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
