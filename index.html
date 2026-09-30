@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <title>Maximiliano Huebra | Portfolio</title>
 </head>
 <body>
     <header class= "header">
         <nav class= "navbar">
             <h1 class="titulo-h1">Maximiliano Huebra</h1>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
             <ul class= "nav-menu" id="nav-menu">
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
@@ -23,7 +31,7 @@
     <div class="hero-texto">
         <span class="hero-tag">01 / PORTFOLIO</span>
         <h2>Desarrollo de<span>Software &</span>Sistemas</h2>
-        <p class="hero-descripcion">Mi gran interes se dirige al desarrollo de software, poder aportar soluciones digitales es mi objetivo. Actualmente soy estudiante universitario avanzado, perfeccionandome en programación, bases de datos, arquitecturas, y desarrollo.</p>
+        <p class="hero-descripcion">Mi gran interés se dirige al desarrollo de software, poder aportar soluciones digitales es mi objetivo. Actualmente soy estudiante universitario avanzado, perfeccionandome en programación, bases de datos, arquitecturas, y desarrollo.</p>
         <div class="hero-actions">
             <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
             <a href="#contacto" class="btn btn-link">Contacto</a>
@@ -32,11 +40,156 @@
     <div class="hero-imagen">
         <span class="image-index">PUERTO MADERO / 2026</span>
         <div class="image-frame">
-            <img src="imgs/perfil.jpeg" alt="Foto de perfil">
+            <img src="imgs/perfil.webp" alt="Foto de perfil">
+        </div>
+    </div>
+    
+    </section>
+    <section id="proyectos" class="proyectos">
+    <div class="seccion-header">
+        <span class="seccion-numero">02 / Proyectos</span>
+        <h2>Proyectos seleccionados</h2>
+    </div>
+    <div class="proyectos-grid">
+        <a href="https://github.com/MaxiHbra/Tree-SL-another-programming-language." target="_blank">
+        <article class="proyecto-card">
+            <span class="proyecto-index">01</span>
+            <h3>TREE-SL Intérprete</h3>
+            <div class="proyecto-imagen">
+                <img src="imgs/proyecto1.webp" alt="Vista previa del proyecto">
+            </div>
+            <p>Interprete desarrollado con la finalidad del trabajo con átomos, listas y conjuntos. Su propósito es facilitar el uso de funciones matemáticas con este tipo de estructuras.</p>
+            <div class="tecnologias">
+                <span>C</span>
+                <span>Flex</span>
+                <span>Bison</span>
+                <span>Git</span>
+            </div>
+        </article>
+        </a>
+        <a href="https://maxihbra.github.io/H-A-web/" target="_blank">
+        <article class="proyecto-card">
+            <span class="proyecto-index">02</span>
+            <h3>Website para escuela técnica</h3>
+            <div class="proyecto-imagen">
+                <img src="imgs/proyecto2.webp" alt="Vista previa del proyecto">
+            </div>
+            <p>Diseño e implementación de página web para EET N°:3139 con tecnologías bases.</p>
+            <div class="tecnologias">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Git</span>
+            </div>
+        </article>
+        </a>
+
+        <a href="https://github.com/MaxiHbra/TAP-2026" target="_blank">
+        <article class="proyecto-card">
+            <span class="proyecto-index">03</span>
+            <h3>Clasificación a etapas nacionales del TAP</h3>
+            <div class="proyecto-imagen">
+                <img src="imgs/proyecto3.webp" alt="Vista previa del proyecto">
+            </div>
+            <p>Miembro del equipo MCLovins que logró pasar las regionales en septiembre 2026 y competirá en noviembre 2026 las nacionales.</p>
+            <div class="tecnologias">
+                <span>C++</span>
+                <span>C</span>
+                <span>Python</span>
+            </div>
+        </article>
+        </a>
+    </div>
+    </section>
+
+    <section id="formacion" class="formacion">
+    <div class="seccion-header">
+        <span class="seccion-numero">03 / Formación</span>
+        <h2>Trayectoria académica</h2>
+    </div>
+    <div class="formacion-lista">
+        <article class="formacion-item">
+            <div class="formacion-fecha">
+                <span>2022</span>
+            </div>
+            <div class="formacion-info">
+                <span class="formacion-tipo">Educación técnica</span>
+                <h3>EET N°3139 Gral. Martín Miguel de Güemes</h3>
+                <h4>Técnico Informático Profesional y Personal</h4>
+                <p>Formación técnica orientada a informática,
+                    programación, hardware, software y resolución
+                    de problemas tecnológicos.</p>
+            </div>
+        </article>
+        <article class="formacion-item">
+            <div class="formacion-fecha">
+                <span>Actualidad</span>
+            </div>
+            <div class="formacion-info">
+                <span class="formacion-tipo">Formación universitaria</span>
+                <h3>Universidad Nacional de Salta</h3>
+                <h4>Licenciatura en Análisis de Sistemas</h4>
+                <p>
+                    Formación en desarrollo de software,
+                    bases de datos, algoritmos, arquitectura
+                    de computadoras y sistemas.
+                </p>
+                <div class="formacion-skills">
+                    <span>SQL</span>
+                    <span>PostgreSQL</span>
+                    <span>C</span>
+                    <span>C++</span>
+                    <span>Java</span>
+                    <span>Haskell</span>
+                    <span>Prolog</span>
+                    <span>Assembly</span>
+                    <span>Git</span>
+                    <span>Algoritmos</span>
+                    <span>Sistemas Operativos</span>
+                    <span>Compiladores</span>
+                </div>
+            </div>
+        </article>
+    </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+    <div class="seccion-header">
+        <span class="seccion-numero">04 / Contacto</span>
+    </div>
+    <div class="contacto-contenido">
+        <h2 class="contacto-titulo">Contáctame</h2>
+        <h2 class="contacto-nombre">Maximiliano Huebra</h2>
+        <div class="contacto-redes">
+            <a href="https://www.linkedin.com/in/maximiliano-huebra-6346ab381/?isSelfProfile=true"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/MaxiHbra"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="mailto:maxiihuebra12@gmail.com"
+               aria-label="Gmail">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://www.instagram.com/mhbra_/"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
         </div>
     </div>
     </section>
     </main>
+    <footer>
+        <p class="contacto-footer">Portfolio 2026 / Maximiliano Huebra</p>
+    </footer>
     <script src="scripts.js"></script>
-</body>
+</body> 
 </html>
